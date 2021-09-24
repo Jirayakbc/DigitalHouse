@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+
+body{
+    background-image: url(../img/fundo.jpg);
+    font-family: 'Roboto',sans-serif;
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    
+}
+
+#cabecalho{
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #333;
+
+}
+#listaprincipal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+  li {
+    float:left;
+    box-sizing: border-box;
+}
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    background-color: #8fa39c;
+
+  }
+  p{
+        display: block;
+        color:white;
+        background-color: #333;
+        text-align: justify;
+        padding: 10px;
+        text-decoration: none;
+}
+  #video-title{
+      color: white;
+
+  }
+  #listvideos{
+      color: rgba(255, 255, 255, 0.6);
+  }
+  #video{
+
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    display: flex;
+     
+  }
+
+
+p{
+    text-align: center;
+}
+
+ 
+#lista{
+  margin: 20px;
+}
+ 
+ul {
+    flex-basis: 100%;
+  list-style-type: none;
+  width: max-content;
+}
+ 
+h3 {
+  font-family: 'Roboto',sans-serif;
+}
+ 
+li img {
+  float: left;
+  /* margin: 0 15px 0 0; */
+  width: 1280px;
+  height: 720px;
+  margin-top: 10px
+
+}
+ 
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  cursor: pointer;
+}
