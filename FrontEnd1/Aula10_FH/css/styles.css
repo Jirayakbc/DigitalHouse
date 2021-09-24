@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    text-align: center;
+    border: rgb(0, 0, 0);
+    color: blue;
+    background-image: url(https://www.nerdediva.com.br/wp-content/uploads/2019/03/Homem-aranha-longe-de-casa-1-1280x720.jpg);
+    width: 1270px;
+    height: 720px;
+    padding-top: 420px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+
+}
+button{
+    border-color: rgb(60, 255, 0);
+    border-radius: 20px;
+    border-width: 2px;
+    background-color: gray;
+}
+select{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: red;
+    background-color: gray;
+    margin: 1px;
+    
+}
