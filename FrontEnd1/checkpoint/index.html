@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <fieldset>    
+        <legend>Dados Pessoais:</legend>
+        <label for="nome">Nome Completo </label>
+        <input type="text" name="nome" id="nome" maxlength="100" placeholder="Digite seu nome" required>
+
+        <label for="email">e-mail</label>
+        <input type="text" name="email"  id="email" placeholder="Digite seu e-mail" required>
+
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" id="nascimento" placeholder="Digite seu nome" required>
+
+        <input type="radio" name="idade" id="idade-maior" checked>
+        <label for="idade-maior">Maior de 18 anos</label>
+        <!-- <input type="radio"> -->
+        <input type="radio" name="idade" id="idade-menor" >
+        <label for="idade-menor">Menor de 18 anos</label>
+
+
+    </fieldset>  
+
+        <fieldset>
+            <legend>Interesses</legend>
+            <label for="ponto">Ponto de Interesse</label>
+            <select name="turistico" id="turistico">
+                <option value="">selecione</option>
+                <option value="">Quinzinho</option>
+                <option value="">Flores</option>
+                <option value="">Parque das Aguas</option>
+            </select>
+
+            <input type="checkbox" name="nome" id="turista">Turista
+            <input type="checkbox" name="nome" id="residente">Residente
+            <input type="checkbox" name="nome" id="estudante">Estudante
+            <!-- <input type="checkbox" name="nome" id=""> -->
+
+        </fieldset>
+
+        <input type="submit" name="" id="">
+    </form>
+
+
+</body>
+</html>
