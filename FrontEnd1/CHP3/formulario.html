@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheckPoint2</title>
+    <link rel="stylesheet" href="css/styless.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>Formulário de Cadastro</h1>
+    </div>
+    <div class="lateral1"></div>
+    <div class="formulario">
+      <form action="#" method="POST" id="espaco-formulario">
+        <div class="form-dados">
+          <fieldset id="dados" class="cont-fieldset">
+            <legend>Dados Pessoais:</legend>
+            <div class="input-texto">
+              <label for="nome">Nome Completo </label>
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                maxlength="100"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+            <div class="input-texto">
+              <label for="email">E-mail</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+                required
+              />
+            </div>
+            <div class="input-texto">
+              <label for="telefone">Telefone:</label>
+              <input
+                type="tel"
+                name="telefone"
+                id="telefone"
+                placeholder="(XX) 00000-0000"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+            </div>
+            <div class="input-texto">
+              <label for="nascimento">Data de Nascimento</label>
+              <input
+                type="date"
+                id="nascimento"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+            <div class="botoes-idade">
+              <!-- Campos radio button para definir maior ou menor idade -->
+              <div class="input-botao">
+                <input type="radio" id="idade-maior" name="seletor" />
+                <label for="idade-maior">Maior de 18 anos</label>
+                <div class="checkButton"></div>
+              </div>
+              <div class="input-botao">
+                <input type="radio" id="idade-menor" name="seletor" />
+                <label for="idade-menor">Menor de 18 anos</label>
+                <div class="checkButton"></div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <div class="espaco-fieldset"></div>
+        <div class="form-interesses">
+          <fieldset class="cont-fieldset">
+            <legend>Interesses</legend>
+            <div>
+              <label for="ponto">Ponto de Interesse</label>
+              <select name="turistico" id="turistico">
+                <option value="selecione">selecione</option>
+                <option value="zoologico">Zoólogico Quinzinho</option>
+                <option value="botanico">Jardim Botanico</option>
+                <option value="parque">Parque das Aguas</option>
+              </select>
+            </div>
+            <div>
+              <input type="checkbox" name="nome" id="turista" />Turista
+              <input type="checkbox" name="nome" id="residente" />Residente
+              <input type="checkbox" name="nome" id="estudante" />Estudante
+              <!-- <input type="checkbox" name="nome" id=""> -->
+            </div>
+          </fieldset>
+        </div>
+        <div class="espaco-fieldset"></div>
+        <div class="form-botoes">
+          <input type="submit" name="enviar" id="enviar" />
+          <input type="reset" name="limpar" value="Limpar" id="limpar" />
+        </div>
+      </form>
+    </div>
+    <div class="lateral2"></div>
+    <div class="barra-inferior"></div>
+  </body>
+</html>
